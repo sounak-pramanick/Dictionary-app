@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.appContainer {
+  height: 100vh;
+  background-color: #282c34;
+  color: #fff;
 }
