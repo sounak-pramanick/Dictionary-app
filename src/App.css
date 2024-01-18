@@ -39,6 +39,23 @@
 
 .appContainer {
   height: 100vh;
+}
+
+.lightMode {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s linear;
+}
+
+.darkMode {
   background-color: #282c34;
+  background-color: #242823;
   color: #fff;
+  transition: all 0.3s linear;
+}
+
+.themeToggle {
+  position: absolute;
+  top: 0;
+  right: 5rem;
 }
